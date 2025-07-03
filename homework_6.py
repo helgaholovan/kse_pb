@@ -40,5 +40,3 @@ Budget['Income'] = "%.2f" % Budget['Income']
 Budget['Costs'] = "%.2f" % Budget['Costs']
 Profit = "%.2f" % (float(Budget['Income']) - float(Budget['Costs']))
 print(f"Наразі ми маємо {Budget['Amount']} акцій, ми витратили {Budget['Costs']} та отримали {Budget['Income']}. Наш прибуток/втрати - ({Profit})")
-
-display(df)
